@@ -1,0 +1,10 @@
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    column-gap: 80px;
+    padding: 40px 0;
+
+    background-color: #162446;
+}

@@ -1,0 +1,65 @@
+.section2{
+    margin-top: 118px;
+
+    display: flex;
+    align-items: center;
+}
+
+.subtitle{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 3px;
+
+    color: #c23893;
+}
+
+.section2-title{
+    margin-bottom: 21px;
+
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+
+    color: #ffffff;
+}
+
+.df{
+    display: flex;
+}
+
+.section2 svg{
+    font-size: 23px;
+    color: #c23893;
+
+    margin-right: 10px;
+}
+
+.df h4{
+    margin-bottom: 24px;
+
+
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
+    color: #ffffff;
+}
+
+p{
+    margin-bottom: 39px;
+
+
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #767799;
+}
+
+.section2-img{
+
+    background: radial-gradient(circle, rgba(24,69,163,1) 0%, rgba(18,19,42,1) 70%);
+}
+

@@ -1,0 +1,57 @@
+.services-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 40px;
+
+    margin-bottom: 70px;
+}
+
+.about-wrapper h2{
+    margin: 0 auto;
+
+    font-size: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+
+    margin-bottom: 40px;
+
+    color: #ffffff;
+}
+
+.about-wrapper h3{
+    margin: 0 auto;
+
+    font-size: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+
+    margin-bottom: 40px;
+
+    color: #ffffff;
+}
+
+.about-wrapper p {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+
+    color: #767799;
+
+    margin-bottom: 35px;
+}
+
+.services-wrapper span{
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+
+
+    color: #5981d8;
+
+    margin-bottom: 35px;
+}

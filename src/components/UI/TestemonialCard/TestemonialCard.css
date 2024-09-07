@@ -1,0 +1,57 @@
+.author-name{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+
+    color: #ffffff;
+}
+
+.author-status{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+
+    color: #e0e0e0;
+}
+
+.testemonial-card svg{
+    font-size: 30px;
+
+
+    color: #ffffff;
+}
+
+.bg{
+    position:absolute;
+
+    filter: brightness(60%);
+}
+
+.testemonial-card-content{
+    position: relative;
+    left: 40px;
+    top: 593px;
+    
+    display: flex;
+    /* align-items: center; */
+    column-gap: 80px;
+
+
+}
+
+.play-btn{
+    height: fit-content;
+
+    padding: 22px;
+
+
+    border: solid 2px #ffffff;
+    border-radius: 23px;
+
+}
+
+.play-btn svg{
+    cursor: pointer;
+}
