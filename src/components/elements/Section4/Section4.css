@@ -27,7 +27,27 @@
 .section4-text{
     width: fit-content;
 
+    margin-bottom: 39px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #767799;
+
     margin-top: 23px;
     margin-bottom: 97px;
 }
 
+@media (max-width: 768px){
+    .section4-cards{
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 576px){
+    .section4 h2{
+        font-size: 50px;
+        text-align: center;
+    }
+}

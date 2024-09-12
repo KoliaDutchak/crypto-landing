@@ -36,7 +36,7 @@
     z-index: 2;
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     .slide{
         width: 100%;
         margin: 0 auto;
@@ -45,7 +45,29 @@
     
     .slide h1,
     .slide p{
-        width: 800px;
+        width: 700px;
         text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .slide h1 {
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 576px) {
+    .slide h1 {
+        font-size: 55px;
+        width: 500px;
+
+        padding-left: 40px;
+    }
+
+    .slide p {
+        /* font-size: 14px; */
+        width: 500px;
+        padding-left: 40px;
+
     }
 }

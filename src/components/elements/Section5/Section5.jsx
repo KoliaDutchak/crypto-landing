@@ -7,7 +7,7 @@ const Section5 = () => {
     return (
         <div className='section5'>
             <img className='section5-img' src={img} alt="phone" />
-            <div>
+            <div className='section5-content'>
                 <h3 className='subtitle'>How it works</h3>
                 <h2 className='section5-title'>Viewing long- term and short -term forcast</h2>
                 <p className='section5-text'>Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut voluptatum labore et.</p>

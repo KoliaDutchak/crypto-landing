@@ -28,6 +28,7 @@
     font-weight: 500;
     font-size: 60px;
 
+
     color: #ffffff;
 }
 
@@ -42,7 +43,7 @@
     margin-right: 10px;
 }
 
-.df h4{
+/* .df h4{
     margin-bottom: 24px;
 
 
@@ -51,7 +52,7 @@
     font-size: 18px;
 
     color: #ffffff;
-}
+} */
 
 .section5-text{
     max-width: 555px;
@@ -70,4 +71,55 @@
 .section5-img{
     background: radial-gradient(circle, rgba(24,69,163,.9) 0%, rgba(18,19,42,1) 70%);
     padding: 60px;
+}
+
+@media (max-width: 1200px){
+    .section5-img{
+        width: 551px;
+    }
+}
+
+@media (max-width: 992px){
+    .section5-img{
+        width: 451px;
+    }
+
+    .section5-title{
+
+        font-size: 50px;
+
+    }
+}
+
+@media (max-width: 768px){
+    .section5-img{
+        display: none;
+    }
+
+    .section5-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section5-title{
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+
+    .section5-text{
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 576px){
+    .section5-title{
+        font-size: 45px;
+    }
+
+    .subtitle{
+        margin-left: 20px;
+    }
 }

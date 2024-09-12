@@ -25,7 +25,6 @@ const TestemonialCard = ({img, name, status}) => {
                         {
                             playing ? <AiOutlinePause onClick={PlayPause}/> : <CiPlay1 onClick={PlayPause}/>
                         }
-
                     </span>
 
                 

@@ -9,13 +9,19 @@ import Section6 from './components/elements/Section6/Section6.jsx';
 import Section7 from './components/elements/Section7/Section7.jsx';
 import FooterLinks from './components/elements/FooterLinks/FooterLinks.jsx';
 import Footer from './components/elements/Footer/Footer.jsx'
+
+import { useEffect } from 'react';
+
 import './App.css';
 
 function App() {
-  alert(true)
+
+//   useEffect(() => {
+//     document.title = "Crypton"
+//  }, []);
 
   return (
-    <div className="container">
+    <div>
       <Header />
       <Clients />
       <Section1 />

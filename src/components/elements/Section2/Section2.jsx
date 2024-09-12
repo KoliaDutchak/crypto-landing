@@ -8,7 +8,7 @@ const Section2 = () => {
     return (
         <div className='section2'>
             <img src={img} alt="phone" className='section2-img'/>
-            <div>
+            <div className='section-2-content'>
                 <h3 className='subtitle'>FEATURES</h3>
                 <h2 className='section2-title'>Crypto premium</h2>
                 <div className='df'>

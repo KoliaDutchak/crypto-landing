@@ -11,10 +11,10 @@ const Header = () => {
         <div className='header'>
             <HeaderNavigation/>
             <Routes>
-                <Route path='/about' element={<About/>}/>
-                <Route path='/events' element={<Events/>}/>
-                <Route path='/services' element={<Services/>}/>
-                <Route path='/' element={<Home/>}/>
+                <Route path='crypto-landing/about' element={<About/>}/>
+                <Route path='crypto-landing/events' element={<Events/>}/>
+                <Route path='crypto-landing/services' element={<Services/>}/>
+                <Route path='crypto-landing/' element={<Home/>}/>
             </Routes>
         </div>
     )

@@ -11,6 +11,8 @@
     font-weight: 500;
     font-size: 60px;
 
+    text-align: center;
+
     color: #ffffff
 }
 
@@ -30,6 +32,10 @@
     margin-top: 41px;
 
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     column-gap: 96px;
+    row-gap: 40px;
 }

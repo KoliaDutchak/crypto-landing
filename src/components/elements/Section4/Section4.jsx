@@ -12,38 +12,22 @@ const Section4 = () => {
 
     const data = [
         {
-            icon: <CiHeadphones />, title: 'Support', text: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.', styles: {
-                borderRight: '1px solid #C23893',
-                borderBottom: '1px solid #C23893'
-            }
+            icon: <CiHeadphones />, title: 'Support', text: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.', className: 'section4-card rightBottom'
         },
         {
-            icon: <FaChartLine />, title: 'Sales', text: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.', styles: {
-                borderRight: '1px solid #C23893',
-                borderBottom: '1px solid #C23893'
-            }
+            icon: <FaChartLine />, title: 'Sales', text: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.', className: 'section4-card rightBottom'
         },
         {
-            icon: <MdOutlineDashboard />, title: 'Onboarding', text: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.', styles: {
-                borderBottom: '1px solid #C23893'
-            }
+            icon: <MdOutlineDashboard />, title: 'Onboarding', text: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.', className: 'section4-card bottom'
         },
         {
-            icon: <RiArchiveStackFill />, title: 'Product', text: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.', styles: {
-                borderRight: '1px solid #C23893',
-                paddingTop: '57px'
-            }
+            icon: <RiArchiveStackFill />, title: 'Product', text: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.', className: 'section4-card rightTop'
         },
         {
-            icon: <LuFolderHeart />, title: 'Quality', text: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.', styles: {
-                borderRight: '1px solid #C23893',
-                paddingTop: '57px'
-            }
+            icon: <LuFolderHeart />, title: 'Quality', text: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.', className: 'section4-card rightTop'
         },
         {
-            icon: <RiArchiveStackFill />, title: 'Result', text: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.', styles: {
-                paddingTop: '57px'
-            }
+            icon: <RiArchiveStackFill />, title: 'Result', text: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.', className: 'section4-card top'
         }
     ]
 
@@ -55,7 +39,7 @@ const Section4 = () => {
             <div className='section4-cards'>
                 {
                     data.map((item) => {
-                        return <Section4Card icon={item.icon} title={item.title} text={item.text} styles={item.styles} />
+                        return <Section4Card icon={item.icon} title={item.title} text={item.text} className={item.className} />
                     })
                 }
             </div>

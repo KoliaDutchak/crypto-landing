@@ -38,16 +38,36 @@
 
 .section6-text{
     max-width: 660px;
+
+    margin-bottom: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #767799;
+
     text-align: center;
 }
 
 .testemonials{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
     column-gap: 120px;
+    row-gap: 650px;
 
     margin-bottom: 818px;
 }
 
 .card{
     display: block;
+}
+
+@media(max-width: 1200px){
+    .testemonials{
+        padding-right: 50px;
+    }
 }

@@ -55,11 +55,54 @@ button {
     cursor: pointer;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1200px){
     .home-img{
         height: 704px;
         width: 606px;
     }
+
+    .home-wrapper {
+        column-gap: 80px;
+    }
+
+    .slides-numbers{
+        width: 85px;
+        font-size: 29px;
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    .slides-numbers span {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 992px){
+    .home-wrapper{
+        width: 95%;
+    }
+
+    .home-img{
+
+
+        display: none;
+        z-index: -1;
+    }
+
+    .buttons{
+        width: fit-content;
+        flex-direction: column-reverse;
+        row-gap: 30px;
+        margin: 0 auto;
+        padding-left: 100px;
+
+        justify-content: center;
+    }
+
+    .slider{
+        width: 950px;
+    }
+
 }
 
 @media (max-width: 768px){
@@ -71,6 +114,12 @@ button {
     .home-img{
         display: none;
     }
+}
 
+@media (max-width: 576px){
+    .buttons{
 
+        padding-left: 90px;
+
+    }
 }

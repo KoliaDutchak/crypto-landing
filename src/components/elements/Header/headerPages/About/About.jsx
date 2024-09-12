@@ -4,9 +4,7 @@ import './About.css'
 
 export const About = () => {
     return (
-        // <BackgroundAnimation>
-        //     <div>something</div>
-        // </BackgroundAnimation>
+
 
         <div className='about-wrapper'>
             <h2>About Us</h2>
