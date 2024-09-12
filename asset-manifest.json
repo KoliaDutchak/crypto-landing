@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/crypto-landing/static/css/main.7e2021f2.css",
-    "main.js": "/crypto-landing/static/js/main.2d7807ac.js",
+    "main.css": "/crypto-landing/static/css/main.d5801fbe.css",
+    "main.js": "/crypto-landing/static/js/main.895896e9.js",
     "static/media/Inter-Italic-VariableFont_opsz,wght.ttf": "/crypto-landing/static/media/Inter-Italic-VariableFont_opsz,wght.831252f8ba7e1b5b2432.ttf",
     "static/media/gradient.png": "/crypto-landing/static/media/gradient.494ee91941fe941e7c1f.png",
     "static/media/img2.png": "/crypto-landing/static/media/img2.0c08f672aff910385fb0.png",
@@ -14,11 +14,11 @@
     "static/media/section3.png": "/crypto-landing/static/media/section3.95fef0ebb025addd413c.png",
     "static/media/phone2.png": "/crypto-landing/static/media/phone2.d36008b2c7c23fa7ffa5.png",
     "index.html": "/crypto-landing/index.html",
-    "main.7e2021f2.css.map": "/crypto-landing/static/css/main.7e2021f2.css.map",
-    "main.2d7807ac.js.map": "/crypto-landing/static/js/main.2d7807ac.js.map"
+    "main.d5801fbe.css.map": "/crypto-landing/static/css/main.d5801fbe.css.map",
+    "main.895896e9.js.map": "/crypto-landing/static/js/main.895896e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e2021f2.css",
-    "static/js/main.2d7807ac.js"
+    "static/css/main.d5801fbe.css",
+    "static/js/main.895896e9.js"
   ]
 }
