@@ -14,7 +14,7 @@ const Header = () => {
                 <Route path='/about' element={<About/>}/>
                 <Route path='/events' element={<Events/>}/>
                 <Route path='/services' element={<Services/>}/>
-                <Route path='/crypto-landing' element={<Home/>}/>
+                <Route path='/' element={<Home/>}/>
             </Routes>
         </div>
     )
