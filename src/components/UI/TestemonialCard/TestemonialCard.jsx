@@ -10,7 +10,7 @@ const TestemonialCard = ({img, name, status}) => {
 
     const PlayPause = () => {
         setIsPlaying(!playing)
-    }
+    } 
 
     return (
         <div className='testemonial-card'>

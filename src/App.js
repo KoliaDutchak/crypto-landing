@@ -10,15 +10,11 @@ import Section7 from './components/elements/Section7/Section7.jsx';
 import FooterLinks from './components/elements/FooterLinks/FooterLinks.jsx';
 import Footer from './components/elements/Footer/Footer.jsx'
 
-import { useEffect } from 'react';
+
 
 import './App.css';
 
 function App() {
-
-//   useEffect(() => {
-//     document.title = "Crypton"
-//  }, []);
 
   return (
     <div>
